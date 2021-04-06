@@ -1,0 +1,1 @@
+del a.exe 2>nul && compile.bat && a

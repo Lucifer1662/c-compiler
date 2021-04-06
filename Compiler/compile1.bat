@@ -1,0 +1,1 @@
+del test1.obj 2>nul && nasm -fwin32 test1.asm && gcc test1.obj

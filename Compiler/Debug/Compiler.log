@@ -1,0 +1,23 @@
+﻿  Parser.cpp
+C:\Users\lhawk\OneDrive\Projects\Compiler\Compiler\Parser.h(5,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\lhawk\OneDrive\Projects\Compiler\Compiler\Parser.cpp(7,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\lhawk\OneDrive\Projects\Compiler\Compiler\Parser.cpp(322,8): warning C4834: discarding return value of function with 'nodiscard' attribute
+C:\Users\lhawk\OneDrive\Projects\Compiler\Compiler\Parser.cpp(160,7): warning C4101: 'size': unreferenced local variable
+C:\Users\lhawk\OneDrive\Projects\Compiler\Compiler\Parser.cpp(310,7): warning C4101: 'size': unreferenced local variable
+C:\Users\lhawk\OneDrive\Projects\Compiler\Compiler\ScopeContent.h(53,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\lhawk\OneDrive\Projects\Compiler\Compiler\Parser.cpp(428): message : see reference to function template instantiation 'void ScopeContent::resolveAmbiguousSymbols<Parser::parse::<lambda_1>,Parser::parse::<lambda_2>>(int,int,const ComparatorLeft &,const ComparatorRight)' being compiled
+          with
+          [
+              ComparatorLeft=Parser::parse::<lambda_1>,
+              ComparatorRight=Parser::parse::<lambda_2>
+          ]
+C:\Users\lhawk\OneDrive\Projects\Compiler\Compiler\ScopeContent.h(78,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\lhawk\OneDrive\Projects\Compiler\Compiler\Parser.cpp(474): message : see reference to function template instantiation 'void ScopeContent::makeAdjacenetChildrenFunc<Parser::parse::<lambda_9>,Parser::parse::<lambda_10>>(int,const ComparatorLeft &,const ComparatorRight &)' being compiled
+          with
+          [
+              ComparatorLeft=Parser::parse::<lambda_9>,
+              ComparatorRight=Parser::parse::<lambda_10>
+          ]
+C:\Users\lhawk\OneDrive\Projects\Compiler\Compiler\StructType.h(31): warning C4715: 'StructType::getOffsetAndTypeForName': not all control paths return a value
+Debug\RegexHelpers.obj : warning LNK4042: object specified more than once; extras ignored
+  Compiler.vcxproj -> C:\Users\lhawk\OneDrive\Projects\Compiler\Debug\Compiler.exe
